@@ -1,45 +1,53 @@
-# Cat Photo App
+# CatPhotoApp
 
-This is a simple **Cat Photo App** built using **HTML**. The project includes different sections showcasing cat images, lists, and a form for users to submit cat photos.
+A responsive, semantic web page demonstrating core HTML5 elements, multimedia embedding, list structures, and interactive form controls.
 
-## 📌 Features
-- 🖼️ Displays cat photos with clickable links.
-- 📋 Provides a list of things cats **love** and **hate**.
-- 📩 Includes a form to submit cat-related information.
+## Overview
 
-## 📂 Code Structure
-The project consists of a single **HTML file**, structured as follows:
+CatPhotoApp is a foundational HTML5 project designed to showcase semantic document markup. It features structured content sections displaying images with captions, ordered and unordered lists, and an interactive form utilizing standard web input controls.
 
-### 🏷️ `<head>`
-- Contains the page title.
+## Features
 
-### 🏛️ `<body>`
-#### 📌 **Header (`<h1>`)**
-- Displays the title **"CatPhotoApp"**.
+- **Semantic HTML5 Markup**: Built using structural elements including `<main>`, `<section>`, `<figure>`, and `<footer>` for clear document outline and accessibility.
+- **Media and Links**: Implements hyperlinked images, external references, and descriptive figure captions (`<figcaption>`).
+- **Structured Content**: Demonstrates both ordered (`<ol>`) and unordered (`<ul>`) lists for categorized data.
+- **Interactive Form Controls**:
+  - Radio buttons grouped within a `<fieldset>` for exclusive selection.
+  - Checkboxes for multi-attribute selection.
+  - URL text input with HTML5 validation and submission handling.
 
-#### 📌 **Main Content (`<main>`)**
-##### 🐱 **Section 1 - Cat Photos**
-- Displays a heading and a paragraph with links to cat images.
-- Includes an image wrapped in an anchor tag to redirect users to more cat photos.
+## Project Structure
 
-##### 📜 **Section 2 - Cat Lists**
-- 📌 An unordered list (`<ul>`) showing things that **cats love**.
-- 📌 An ordered list (`<ol>`) showing things that **cats hate**.
-- 🖼️ Each list is accompanied by an image and a caption (`<figcaption>`).
+```text
+CatPhotoApp/
+├── index.html    # Core web application markup
+├── LICENSE       # MIT License
+└── README.md     # Project documentation
+```
 
-##### 📋 **Section 3 - Cat Form**
-- 📝 A `<form>` element with a `<fieldset>` grouping **radio buttons** for indoor/outdoor selection.
-- ✅ A second `<fieldset>` with **checkboxes** for selecting a cat's personality traits.
-- 🔗 A **text input field** for submitting a cat photo URL.
-- 🚀 A **submit button**.
+### Document Architecture
 
-### 📌 `<footer>`
-- 🏷️ Contains a copyright notice.
+- **`<head>`**: Document metadata and page title.
+- **`<body>`**:
+  - **Header**: Primary application heading (`<h1>`).
+  - **`<main>`**:
+    - **Section 1 (Cat Photos)**: Header, descriptive paragraphs, and linked media.
+    - **Section 2 (Lists and Figures)**: Categorized lists paired with figures and captions.
+    - **Section 3 (Interactive Form)**: Grouped inputs for environment selection, personality traits, and photo URL submission.
+  - **`<footer>`**: Copyright notice and reference links.
 
-## 🛠️ Technologies Used
-- 🌐 **HTML5**: Used to structure the web page.
-- 🎯 **Forms and Inputs**: Used for user interactions.
+## Technologies Used
 
----
+- **HTML5**: Page structure, semantic tags, and native form elements.
 
+## Getting Started
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/K4l1C0d3x/CatPhotoApp.git
+   ```
+2. Open `index.html` in any modern web browser.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
